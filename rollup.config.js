@@ -18,7 +18,7 @@ const libraryName = '--libraryname--'
 const config = {
   input: `src/${libraryName}.ts`,
   output: [
-    { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
+    // { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
     { file: pkg.main, name: camelCase(libraryName), format: 'cjs', sourcemap: true },
     { file: pkg.browser, name: camelCase(libraryName), format: 'iife', sourcemap: true,
       // https://rollupjs.org/guide/en#output-globals-g-globals

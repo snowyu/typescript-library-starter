@@ -12,11 +12,11 @@
     "emitDecoratorMetadata": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "declarationDir": "types",
+    "declarationDir": "dist/types",
     "outDir": "dist/lib",
     "typeRoots": [
-      "node_modules/@types",
-      "src/types"
+      "src/types",
+      "node_modules/@types"
     ]
   },
   "include": [

@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "main": "dist/--libraryname--.umd.js",
+  "main": "dist/--libraryname--.cjs.js",
   "module": "dist/--libraryname--.es5.js",
-  "typings": "types/--libraryname--.d.ts",
+  "browser": "dist/pouchdb-transform.iife.js",
+  "typings": "dist/types/--libraryname--.d.ts",
   "files": [
+    "src",
     "dist"
   ],
   "author": "--username-- <--usermail-->",
