@@ -25,6 +25,7 @@ npm install
 
 ### Features
 
+ - use `@babel/preset-typescript` instead of tsc to compile typescript.
  - Zero-setup. After running `npm install` things will setup for you :wink:
  - **[RollupJS](https://rollupjs.org/)** for multiple optimized bundles following the [standard convention](http://2ality.com/2017/04/setting-up-multi-platform-packages.html) and [Tree-shaking](https://alexjoverm.github.io/2017/03/06/Tree-shaking-with-Webpack-2-TypeScript-and-Babel/)
  - Tests, coverage and interactive watch mode using **[Jest](http://facebook.github.io/jest/)**
